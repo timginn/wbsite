@@ -1,0 +1,28 @@
+{# Template for the contact page #}
+
+{% extends "base.html" %}
+
+{% block js_doc_ready %}
+    menu_highlight('contact');
+{% endblock %}
+
+{% block content %}
+    <div id='img_wrap'>
+        <img src='/img/SarahAndIAtTheGrandCanyon.jpg'/>
+        <p class='caption small_text light_text'>
+            Photo by 
+            <a href='https://picasaweb.google.com/alex.weeks'>
+                Alex Weeks
+            </a>
+        </p>
+    </div>
+
+    <!-- page title -->
+    <h1 id='page_title'>{{ page.title }}</h1>
+
+    <!-- main content title -->
+    <div id='home_content'>
+        {{ page.content }}
+    </div>
+
+{% endblock %}

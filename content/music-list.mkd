@@ -1,0 +1,7 @@
+title: Music
+slug: music
+type: music-list
+pagination:
+    list: page.subpages
+    limit: 2
+---

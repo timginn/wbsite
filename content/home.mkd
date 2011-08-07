@@ -1,0 +1,6 @@
+title: Home
+type: home
+url: /index.html
+---
+
+_"Making mistakes in the right direction"_
