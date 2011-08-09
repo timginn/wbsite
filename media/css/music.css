@@ -1,6 +1,12 @@
 /* music-specific CSS styles
  */
 
+a {
+    font-size: 1em;
+}
+span {
+    font-size: 1em;
+}
 /* music list */
 .music-item{
     margin-bottom: 20px;
