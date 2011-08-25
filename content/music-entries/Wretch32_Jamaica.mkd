@@ -1,4 +1,4 @@
-title: It's way to hot out right now.
+title: It's way too hot out right now.
 type: music-entry
 category: music
 date: 2011-08-24
