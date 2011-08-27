@@ -37,7 +37,7 @@ class Poster(object):
     def tweet(self,status):
         data = {'status':str(status)}
         resp, content = self.client.request(request_uri, 'POST', urllib.urlencode(data))
-        print resp['status']
+        print "Status was: "+str(resp['status'])
         print content
 
 if __name__ == "__main__":
