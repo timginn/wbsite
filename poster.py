@@ -38,7 +38,8 @@ class Poster(object):
         data = {'status':str(status)}
         resp, content = self.client.request(request_uri, 'POST', urllib.urlencode(data))
         print "Status was: "+str(resp['status'])
-        print content
+        if resp['status'] != "200":
+            print content
 
 if __name__ == "__main__":
     poster = Poster()
