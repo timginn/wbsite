@@ -40,6 +40,8 @@ class Poster(object):
         print "Status was: "+str(resp['status'])
         if resp['status'] != "200":
             print content
+        else:
+            print "Things went well..."
 
 if __name__ == "__main__":
     poster = Poster()
