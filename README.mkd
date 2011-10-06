@@ -1,4 +1,4 @@
-# robmd.net
+# uberj.com
 
 These are the source files for my [personal web site][mysite]. 
 
@@ -6,7 +6,7 @@ These are the source files for my [personal web site][mysite].
 
 Using git, clone this repository onto your own system:
 
-    git clone https://robatron@github.com/robatron/robmd.net.git
+    git clone https://uberj@github.com/uberj/wbsite.git
 
 ## Installation
 
@@ -22,12 +22,12 @@ Next, make a copy of the `config.dist` file in the project rood directory and ca
 
 Make sure you're in the root project directory, and run wok:
 
-    cd robmd.net
+    cd wbsite
     wok
 
 By default, files will be generated in the `output` directory in the project root. Point your web server at the directory, and you're set!
 
-[mysite]: http://robmd.net
+[mysite]: http://uberj.com/
 [woksite]: https://github.com/mythmon/wok
 [mikesite]: https://github.com/mythmon
 [pip]: http://pypi.python.org/pypi/pip
