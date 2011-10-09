@@ -5,6 +5,7 @@ import ConfigParser
 import os
 import sys
 
+
 access_token_url = 'http://twitter.com/oauth/access_token'
 request_token_url = "http://twitter.com/oauth/request_token"
 request_uri = 'https://api.twitter.com/1/statuses/update.json'
