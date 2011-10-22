@@ -7,5 +7,5 @@ date: 2011-10-16
 
 School, work and not enough time to post music. It seems that every year when Fall rolls around I start listening Trance. If you haven't heard of TATW, here is a starter. This is one of their best shows.
 
-<embed autostart=false height="50px" width="500px" src="http://tatw-archives.anjunabeats.com/TATW300.mp3" />
+<embed autostart=false height="100px" width="500px" src="http://tatw-archives.anjunabeats.com/TATW300.mp3" />
 
