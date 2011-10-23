@@ -1,6 +1,6 @@
-title: Music
-slug: music
-type: music-list
+title: Code
+slug: code
+type: code-list
 pagination:
     list: page.subpages
     sort_key: datetime
