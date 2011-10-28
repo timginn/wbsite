@@ -1,0 +1,10 @@
+title: Fun
+type: music-entry
+category: music
+date: 2011-10-27
+---
+
+This song has been stuck in my head for two days strait. You know those songs that you listen to again and again? The songs that eventually you never want to hear ever again because you've played the tune into the ground? (And possibly embarrassed about liking in the first place?) This is one of those.... Until then, replay!
+
+<object height="81" width="100%"> <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F23709864&amp;show_comments=true&amp;auto_play=false&amp;color=000000"></param> <param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="81"
+src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F23709864&amp;show_comments=true&amp;auto_play=false&amp;color=000000" type="application/x-shockwave-flash" width="100%"></embed> </object>   <span><a href="http://soundcloud.com/fueled_by_ramen/we-are-young-ft-janelle-monae">fun.: We Are Young ft. Janelle Monae</a>
