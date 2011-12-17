@@ -37,5 +37,3 @@ This artist is "old news". But he is really good.
 <iframe width="420" height="200" src="http://www.youtube.com/embed/v90utlNYnBI?hd=1" frameborder="0" allowfullscreen></iframe>
 <br />
 
-<script type="javascript">
-
