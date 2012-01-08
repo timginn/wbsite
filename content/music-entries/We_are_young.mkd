@@ -1,8 +1,0 @@
-title: Icarus
-type: music-entry
-category: music
-date: 2011-12-17
----
-"u mad? ... eon" - Deadmau5
-
-<script type="text/javascript">var _hsPlayer = _hsPlayer || [];_hsPlayer.push(["id", "5080551", "hsPlayer_5080551", [670, 85]]);(function(){var x=document.createElement("script");x.type="text/javascript";x.async=true;x.src="http" + ("https:" == document.location.protocol ? "s" : "") + "://www.hulkshare.com/hsPlayer/hsPlayer.js.php";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(x, s);})();</script><div id="hsPlayer_5080551"></div>
