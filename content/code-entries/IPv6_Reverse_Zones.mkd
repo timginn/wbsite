@@ -3,18 +3,18 @@ type: code-entry
 category: code
 date: 2012-01-08
 ---
-Alas ipv6.
+Alas IPv6.
 
 
-This is all done under the pretense that I'm trying to build [bind][bind] files and using Google's
-IP address library [ipaddr][ipaddr] (awesome library), which is written in python.
+I have been workgin on building [bind][bind] files while using Google's IP address library
+[ipaddr][ipaddr] (awesome library), which is written in Python.
 
 I'm working on something that requires me to determine which reverse zone an IP belongs in. In IPv4
-this is super easy. Mainly it's easy because an ipv4 address has *one* correct representation.
+this is super easy. Mainly it's easy because an ipv4 address has *one* correct representation:
 
         w.x.y.z # Where w,x,y,z are in [0 through 255]
 
-The reverse domain boundaries of an IPv4 domain are along octet boundaries. Since ipv4 adresses
+The reverse domain boundaries of an IPv4 domain are along octet boundaries. Since IPv4 adresses
 always have four octets, mapping an IPv4 address to a reverse domain is a one to one
 'longest-prefix-match' function. For example say we had the reverse domain's `4.193.128.in-addr.arp`
 and `193.128.in-addr.arpa`. Which reverse domain would `128.193.4.1` fall into? It's pretty easy to
