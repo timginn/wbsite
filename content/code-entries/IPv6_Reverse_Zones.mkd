@@ -42,6 +42,7 @@ Sounds like a job for the function `IPv6Address('2620:105:F000::1').nibble` foll
 'longest-prefix-match' like we did with IPv4 addresses. As far as I know `nibble` doesn't exist, so
 I wrote my own function to calculate it.
 
+        ::python
         """
         @param: addr - A valid IPv6 string
         @return: correct reverse zone representation
@@ -60,6 +61,7 @@ I wrote my own function to calculate it.
 
 It would be cool if I could do this:
 
+        ::python
         IPv6Address('2620:0105:F000::1').nibbles
         >>> ip = IPv6Address('2620:0105:F000::1')
         >>> ip.nibbles
