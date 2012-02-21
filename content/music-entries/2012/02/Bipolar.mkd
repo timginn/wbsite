@@ -4,7 +4,7 @@ category: music
 date: 2012-02-13
 ---
 
-It's Monday. Better listen to trance.
+It's Monday. Better listen to trance-ish house music...
 
 <div><object width="480" height="480"><param name="movie" value="http://www.mixcloud.com/media/swf/player/mixcloudLoader.swf?feed=http%3A%2F%2Fwww.mixcloud.com%2Fanjunabeats%2Fmat-zos-bipolar-mix%2F&embed_uuid=19de33cb-4fd7-4328-8d92-b828b3a248f5&stylecolor=&embed_type=widget_standard"></param><param name="allowFullScreen" value="true"></param><param name="wmode" value="opaque"></param><param name="allowscriptaccess" value="always"></param><embed
 src="http://www.mixcloud.com/media/swf/player/mixcloudLoader.swf?feed=http%3A%2F%2Fwww.mixcloud.com%2Fanjunabeats%2Fmat-zos-bipolar-mix%2F&embed_uuid=19de33cb-4fd7-4328-8d92-b828b3a248f5&stylecolor=&embed_type=widget_standard" type="application/x-shockwave-flash" wmode="opaque" allowscriptaccess="always" allowfullscreen="true" width="480" height="480"></embed></object><div style="clear:both; height:3px;"></div><p style="display:block; font-size:12px;
