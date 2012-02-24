@@ -3,7 +3,7 @@ type: code-entry
 category: code
 date: 2012-02-23
 ---
-Lately, I have been working with django Class Based Views (CBVs). They use inheritance heavily. They call inheritance "mixing". They build up classes by mixing in other classes and inheriting their properties. I had defined some of my own mixins and I wondered, which mixin takes precedence? I wrote some simple classes and then preformed science.
+Lately, I have been working with Django Class-Based Views (CBVs) which use inheritance heavily. However, they call inheritance "mixing". They build up classes by mixing in other classes and inheriting their properties. I had defined some of my own mixins, and I wondered, which mixin takes precedence? I wrote some simple classes and then performed science.
 
     ::python
         class A(object):
@@ -12,18 +12,18 @@ Lately, I have been working with django Class Based Views (CBVs). They use inher
         class B(object):
             x = "I'm from B."
 
-The class W has two mixins, A and B. I mix A first.
+Class W has two mixins, A and B. I mix A first.
 
     ::python
         class W(A, B):
             """ """
-The class Y has two mixins, A and B. This time I mix B first.
+Class Y has two mixins, A and B. This time I mix B first.
 
     ::python
         class Y(B, A):
             """ """
 
-The classes A and B both inherit from object. What happens if I don't inherit from object?
+Classes A and B both inherit from object. What happens if I don't inherit from object?
 
     ::python
         class A_():
@@ -37,7 +37,7 @@ The class U mixes A\_ and B. A does not inherit from object.
 
 
 
-Here are the tests I ran using python 3. The results were the same when python 2.7 was used.
+Below are the tests I ran using Python 3. The results were the same when Python 2.7 was used.
 
     ::python
         >>> w = W()
@@ -59,7 +59,8 @@ Here are the tests I ran using python 3. The results were the same when python 2
         "I'm from B."
 
 ##Conclusions
-Which order you mix classes is important. Precedence is from left to right. If you don't inherit from object, you loose precedence to classes that do.
+Which order you mix classes is important. Precedence is from left to right. If you don't inherit from object, you lose precedence to classes that do.
 
 ##Further Questions
 Why does it work like this?
+
