@@ -1,0 +1,9 @@
+title: Week 12
+type: music-entry
+category: music
+date: 2012-04-11
+---
+
+I'm leaving for an internship at Mozilla in rougly 2 weeks. I'll be living in Mountain View California (Silicon Valley). I'm hoping to meet some good programmers and to also expose myself to some new music. For now, here is some Porter Robinson.
+
+<iframe width="100%" height="166" scrolling="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F42677526&auto_play=false&show_artwork=true&show_user=false&show_playcount=false&liking=false&show_comments=false&color=3cdfff" frameborder="0" ></iframe>
