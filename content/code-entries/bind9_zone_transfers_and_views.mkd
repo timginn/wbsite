@@ -1,0 +1,98 @@
+title: BIND9 Zone Transfers and Views
+type: code-entry
+category: code
+date: 2012-04-12
+---
+
+If a BIND server is using views to serve two different zone files for the same zone, can a slave nameserver receive a full AXFR of both zone files? From what I have observed, no.
+
+We (limed and I) setup one master nameserver (ip address `10.192.126.20`) and one slave nameserver
+(ip address `10.192.126.21`). We found that the slave nameserver would receive the "public-view"
+data if it's ip wasn't in the "private-view" acl range and would receive the "private-view" data if
+it's ip was in the "private-view" acl range. During our test, the slave nameserver would transfer
+the same zone data into the two different files, `db.foo.bar.internal` and `db.foo.bar.external`.
+
+The master `named.conf.local` config:
+
+    shell::
+    acl "zone-transfer" {
+        10.192.126.21/32; // Slave ip (dns-dev2)
+    };
+
+    // Views
+    acl "public-view" {
+            any;
+    };
+
+    acl "private-view" {
+         10.0.0.0/8;
+    };
+
+    view "internal" {
+
+        match-clients { "private-view"; };
+
+        zone "foo.bar" {
+            type master;
+            file "/etc/bind/db.foo.bar.internal";  // Contains extra data
+        };
+
+        ...
+        ...
+        ...
+
+    };
+
+    view "external" {
+
+        match-clients { "public-view"; };
+
+        zone "foo.bar" {
+            type master;
+            file "/etc/bind/db.foo.bar.external";
+        };
+
+    };
+
+The slave `named.conf.local` config:
+
+    shell::
+    acl "pub-view" {
+        any;
+    };
+
+    acl "private-view" {
+        10.0.0.0/8;
+    };
+    view "internal" {
+
+        match-clients { "private-view"; };
+
+        zone "foo.bar" {
+            type slave;
+            file "/etc/bind/db.foo.bar.internal";
+            masters {
+                    10.192.126.20;
+        };
+
+        ...
+        ...
+        ...
+
+    };
+
+    view "external" {
+
+        match-clients { "pub-view"; };
+
+        zone "foo.bar" {
+            type slave;
+            file "/etc/bind/db.foo.bar.external";
+            masters {
+                    10.192.126.20;
+            };
+        };
+
+    };
+
+It would be convenient to transfer both files via `AXFER`\s would be easier than using rsync or ftp to transfer the `internal` and `external` zone files.
