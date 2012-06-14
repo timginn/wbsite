@@ -1,0 +1,15 @@
+title: ~1 month in.
+type: music-entry
+category: music
+date: 2012-06-03
+---
+
+California is pretty nice. It doesn't rain much here. While being here i've been to San Fransisco twice; it reminds me of a bigger and more gay Portland. It's a really fun city. One thing that I miss about Corvallis is the selection coffee shops that I had... Maybe I just need to look harder.
+
+I've also been listening to music that I usually don't have an intrest in. Here are a few songs currently loaded as tabs in my browser.
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/2RCSIp0xIW4" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/9OkN1m4AgIY" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/ETbGpGJNVLM" frameborder="0" allowfullscreen></iframe>
