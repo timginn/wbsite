@@ -1,0 +1,13 @@
+title: Hospital
+type: music-entry
+category: music
+date: 2012-07-14
+---
+
+Here are some mixes from Hostpital Records that I've been listening to.
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/1AYIXTfNOag" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/ptAR9CK-iQw" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/g5RQ2c3gVag" frameborder="0" allowfullscreen></iframe>
