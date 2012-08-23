@@ -1,0 +1,9 @@
+title: Madness
+type: music-entry
+category: music
+date: 2012-08-23
+---
+
+Muse is great.
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/Mq9zhpBweDk" frameborder="0" allowfullscreen></iframe>
