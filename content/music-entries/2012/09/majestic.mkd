@@ -1,0 +1,12 @@
+title: Majestic
+type: music-entry
+category: music
+date: 2012-09-04
+---
+
+Me: "Hey Paul (@padenot) what's a good youtube channel?"
+Paul: "Majestic"
+
+He was right. Lots of good songs.
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/SoZ92hUEB84" frameborder="0" allowfullscreen></iframe>
