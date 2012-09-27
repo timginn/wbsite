@@ -1,0 +1,9 @@
+title: Back
+type: music-entry
+category: music
+date: 2012-09-26
+---
+
+I'm back in Corvallis. The valley (and Mozilla) treated me well and I want to thank them for that. Now here is some music.
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/xTRwA0RiweE" frameborder="0" allowfullscreen></iframe>
