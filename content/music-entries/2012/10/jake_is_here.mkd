@@ -1,0 +1,9 @@
+title: Jake is here
+type: music-entry
+category: music
+date: 2012-10-12
+---
+
+Jake is in town.
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/EQ7a7At4iBk" frameborder="0" allowfullscreen></iframe>
