@@ -31,7 +31,7 @@ First let's look at what a reverse IPv6 domain name looks like.
 
 The reverse address of `2620:105:F000::1` looks like this:
 
-        1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.F.5.0.1.0.0.2.6.2.ipv6.arpa # 32*4 bits = 128 bits
+        1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.F.5.0.1.0.0.2.6.2.ip6.arpa # 32*4 bits = 128 bits
 
 Comparing IPv4 notation with IPv6 we see that '.' is still used as a separator, there is no
 truncation (there are always 32 four bit 'nibbles'), and `in-addr.arpa` is replaced with

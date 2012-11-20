@@ -7,10 +7,7 @@ I enjoy listening to music, so I started this website to share the music I'm lis
 
 More about Myself
 -----------------
-During the school year I work at [NET][net] doing various IT tasks that usually involve debugging or writing code. At NET, I work for both Network Security and Network Engineering.
-
-I also have a [github][gith] account where most of the code I write in my spare time ends up.
+I have a [github][gith] account where most of the code I write for work, school and pleasure ends up.
 
 [osu]:http://oregonstate.edu
-[net]:http://oregonstate.edu/net/
 [gith]:http://github.com/uberj
