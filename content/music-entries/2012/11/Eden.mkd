@@ -4,6 +4,6 @@ category: music
 date: 2012-11-19
 ---
 
-Lately, I've been busy with school and work. I've also been listening to some weird Russian lounge music.
+I've been busy with school and work lately. I've also been listening to some weird Russian lounge music.
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/k0qhrokCHwU" frameborder="0" allowfullscreen></iframe>
